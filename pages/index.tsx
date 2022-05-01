@@ -3,9 +3,7 @@ import Sidebar from '../components/sidebar.js'
 
 const Home: NextPage = () => {
   return (
-    <div className="">
-      <h1>Spotify Clone</h1>
-
+    <div className="h-screen overflow-hidden bg-black">
       <main>
         <Sidebar />
         {/* center*/}
